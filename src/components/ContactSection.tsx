@@ -49,11 +49,11 @@ export default function ContactSection() {
                     </a>
 
                     {/* Email/Gmail */}
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=naylasyafiraaa25@gmail.com" target="_blank" rel="noopener noreferrer" className="glow-card p-6 sm:p-8 rounded-2xl text-center group hover:shadow-xl transition-all block">
+                    <a href="mailto:naylasyafiraaa25@gmail.com" className="glow-card p-6 sm:p-8 rounded-2xl text-center group hover:shadow-xl transition-all block">
                         <div className="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-4 rounded-full bg-gradient-to-br from-[#0D9488]/20 to-[#0F766E]/10 flex items-center justify-center group-hover:scale-110 transition-transform">
                             <FaEnvelope className="text-[#0D9488] text-2xl sm:text-3xl" />
                         </div>
-                        <p className="text-xs sm:text-sm text-[#6B5844] mb-2 font-bold uppercase tracking-wider">Gmail</p>
+                        <p className="text-xs sm:text-sm text-[#6B5844] mb-2 font-bold uppercase tracking-wider">Email</p>
                         <p className="font-semibold text-xs sm:text-sm text-[#2C2416] group-hover:text-[#0D9488] transition-colors break-all px-2">naylasyafiraaa25@gmail.com</p>
                     </a>
                 </div>
