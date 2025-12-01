@@ -29,11 +29,11 @@ export default function Hero() {
                     </h1>
 
                     <p className="text-lg sm:text-xl md:text-2xl text-[#6B5844] font-medium">
-                        Desainer Bangunan & Mebel Muda dari Surabaya
+                        Desain Permodelan dan Informasi Bangunan
                     </p>
 
                     <p className="text-[#2C2416] text-base sm:text-lg max-w-lg leading-relaxed">
-                        Mahir dalam AutoCAD & SketchUp. Membuat gambar teknik gedung, furniture 2D/3D, dan RAB dengan presisi tinggi. Siap berkontribusi dalam proyek teknis dengan disiplin dan tanggung jawab.
+                        Mahir dalam AutoCAD & SketchUp. Membuat gambar teknik gedung, Furniture 2D&3D, dan RAB dengan presisi tinggi. Siap berkontribusi dalam proyek teknis dengan disiplin dan tanggung jawab.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-2 sm:pt-4">

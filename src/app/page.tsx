@@ -1,5 +1,6 @@
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
+import Projects from '@/components/Projects';
 import ProfileSection from '@/components/ProfileSection';
 import EducationSection from '@/components/EducationSection';
 import ExperienceSection from '@/components/ExperienceSection';
@@ -11,6 +12,7 @@ export default function Home() {
     <main className="min-h-screen bg-[#fee5c8] text-[#2C2416] font-sans selection:bg-[#D97706] selection:text-white">
       <Navbar />
       <Hero />
+      <Projects />
       <ProfileSection />
       <EducationSection />
       <ExperienceSection />
