@@ -1,4 +1,4 @@
-import { FaMapMarkerAlt, FaPhone, FaEnvelope } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaWhatsapp } from 'react-icons/fa';
 
 export default function ContactSection() {
     return (
@@ -19,79 +19,50 @@ export default function ContactSection() {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 max-w-6xl mx-auto">
-                    {/* Contact Info */}
-                    <div className="space-y-4 sm:space-y-6">
-                        {/* Location */}
-                        <div className="glow-card p-5 sm:p-6 md:p-8 rounded-xl sm:rounded-2xl flex items-start gap-4 sm:gap-6 group hover:shadow-xl transition-all">
-                            <div className="p-3 sm:p-4 md:p-5 rounded-xl sm:rounded-2xl bg-gradient-to-br from-[#0D9488]/20 to-[#0F766E]/10 text-[#0D9488] group-hover:scale-110 transition-transform flex-shrink-0">
-                                <FaMapMarkerAlt size={20} className="sm:w-6 sm:h-6 md:w-7 md:h-7" />
-                            </div>
-                            <div className="flex-1">
-                                <p className="text-xs sm:text-sm text-[#6B5844] mb-1 sm:mb-2 font-bold uppercase tracking-wider">Lokasi</p>
-                                <p className="font-semibold text-base sm:text-lg text-[#2C2416]">Jalan Kalianak Timur, Surabaya, Indonesia</p>
-                            </div>
+                {/* Contact Cards Grid */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 max-w-6xl mx-auto">
+                    {/* Location */}
+                    <div className="glow-card p-6 sm:p-8 rounded-2xl text-center group hover:shadow-xl transition-all">
+                        <div className="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-4 rounded-full bg-gradient-to-br from-[#0D9488]/20 to-[#0F766E]/10 flex items-center justify-center group-hover:scale-110 transition-transform">
+                            <FaMapMarkerAlt className="text-[#0D9488] text-2xl sm:text-3xl" />
                         </div>
-
-                        {/* Phone */}
-                        <a href="tel:+6285846079108" className="glow-card p-5 sm:p-6 md:p-8 rounded-xl sm:rounded-2xl flex items-start gap-4 sm:gap-6 group hover:shadow-xl transition-all block">
-                            <div className="p-3 sm:p-4 md:p-5 rounded-xl sm:rounded-2xl bg-gradient-to-br from-[#D97706]/20 to-[#EA580C]/10 text-[#D97706] group-hover:scale-110 transition-transform flex-shrink-0">
-                                <FaPhone size={20} className="sm:w-6 sm:h-6 md:w-7 md:h-7" />
-                            </div>
-                            <div className="flex-1">
-                                <p className="text-xs sm:text-sm text-[#6B5844] mb-1 sm:mb-2 font-bold uppercase tracking-wider">Telepon</p>
-                                <p className="font-semibold text-base sm:text-lg text-[#2C2416] group-hover:text-[#D97706] transition-colors">0858-4607-9108</p>
-                            </div>
-                        </a>
-
-                        {/* Email */}
-                        <a href="mailto:naylasyafiraaa25@gmail.com" className="glow-card p-5 sm:p-6 md:p-8 rounded-xl sm:rounded-2xl flex items-start gap-4 sm:gap-6 group hover:shadow-xl transition-all block">
-                            <div className="p-3 sm:p-4 md:p-5 rounded-xl sm:rounded-2xl bg-gradient-to-br from-[#0D9488]/20 to-[#0F766E]/10 text-[#0D9488] group-hover:scale-110 transition-transform flex-shrink-0">
-                                <FaEnvelope size={20} className="sm:w-6 sm:h-6 md:w-7 md:h-7" />
-                            </div>
-                            <div className="flex-1">
-                                <p className="text-xs sm:text-sm text-[#6B5844] mb-1 sm:mb-2 font-bold uppercase tracking-wider">Email</p>
-                                <p className="font-semibold text-sm sm:text-base md:text-lg text-[#2C2416] group-hover:text-[#0D9488] transition-colors break-all">naylasyafiraaa25@gmail.com</p>
-                            </div>
-                        </a>
+                        <p className="text-xs sm:text-sm text-[#6B5844] mb-2 font-bold uppercase tracking-wider">Lokasi</p>
+                        <p className="font-semibold text-sm sm:text-base text-[#2C2416] leading-tight">Jalan Kalianak Timur, Surabaya, Indonesia</p>
                     </div>
 
-                    {/* Contact Form */}
-                    <form className="space-y-4 sm:space-y-6 glow-card p-6 sm:p-8 md:p-10 rounded-2xl sm:rounded-3xl shadow-xl border-2 border-[#E7DED0]">
-                        <div className="space-y-2">
-                            <label htmlFor="name" className="block text-xs sm:text-sm font-bold text-[#2C2416] mb-2 uppercase tracking-wider">Nama</label>
-                            <input
-                                type="text"
-                                id="name"
-                                className="w-full bg-white border-2 border-[#E7DED0] rounded-lg sm:rounded-xl px-4 sm:px-5 py-2.5 sm:py-3.5 text-sm sm:text-base text-[#2C2416] focus:outline-none focus:border-[#D97706] focus:ring-2 focus:ring-[#D97706]/20 transition-all placeholder:text-[#6B5844]/50"
-                                placeholder="Nama Anda"
-                            />
+                    {/* Phone */}
+                    <a href="tel:+6285846079108" className="glow-card p-6 sm:p-8 rounded-2xl text-center group hover:shadow-xl transition-all block">
+                        <div className="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-4 rounded-full bg-gradient-to-br from-[#D97706]/20 to-[#EA580C]/10 flex items-center justify-center group-hover:scale-110 transition-transform">
+                            <FaPhone className="text-[#D97706] text-2xl sm:text-3xl" />
                         </div>
+                        <p className="text-xs sm:text-sm text-[#6B5844] mb-2 font-bold uppercase tracking-wider">Telepon</p>
+                        <p className="font-semibold text-base sm:text-lg text-[#2C2416] group-hover:text-[#D97706] transition-colors">0858-4607-9108</p>
+                    </a>
 
-                        <div className="space-y-2">
-                            <label htmlFor="email" className="block text-xs sm:text-sm font-bold text-[#2C2416] mb-2 uppercase tracking-wider">Email</label>
-                            <input
-                                type="email"
-                                id="email"
-                                className="w-full bg-white border-2 border-[#E7DED0] rounded-lg sm:rounded-xl px-4 sm:px-5 py-2.5 sm:py-3.5 text-sm sm:text-base text-[#2C2416] focus:outline-none focus:border-[#0D9488] focus:ring-2 focus:ring-[#0D9488]/20 transition-all placeholder:text-[#6B5844]/50"
-                                placeholder="email@contoh.com"
-                            />
+                    {/* WhatsApp */}
+                    <a href="https://wa.me/qr/KZ6XXI4ONBFWC1" target="_blank" rel="noopener noreferrer" className="glow-card p-6 sm:p-8 rounded-2xl text-center group hover:shadow-xl transition-all block hover:bg-gradient-to-br hover:from-[#25D366]/10 hover:to-[#25D366]/5">
+                        <div className="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-4 rounded-full bg-gradient-to-br from-[#25D366]/20 to-[#128C7E]/10 flex items-center justify-center group-hover:scale-110 transition-transform">
+                            <FaWhatsapp className="text-[#25D366] text-2xl sm:text-3xl" />
                         </div>
+                        <p className="text-xs sm:text-sm text-[#6B5844] mb-2 font-bold uppercase tracking-wider">WhatsApp</p>
+                        <p className="font-semibold text-base sm:text-lg text-[#2C2416] group-hover:text-[#25D366] transition-colors">Chat Langsung</p>
+                    </a>
 
-                        <div className="space-y-2">
-                            <label htmlFor="message" className="block text-xs sm:text-sm font-bold text-[#2C2416] mb-2 uppercase tracking-wider">Pesan</label>
-                            <textarea
-                                id="message"
-                                rows={4}
-                                className="w-full bg-white border-2 border-[#E7DED0] rounded-lg sm:rounded-xl px-4 sm:px-5 py-2.5 sm:py-3.5 text-sm sm:text-base text-[#2C2416] focus:outline-none focus:border-[#D97706] focus:ring-2 focus:ring-[#D97706]/20 transition-all placeholder:text-[#6B5844]/50 resize-none"
-                                placeholder="Tulis pesan Anda..."
-                            ></textarea>
+                    {/* Email/Gmail */}
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=naylasyafiraaa25@gmail.com" target="_blank" rel="noopener noreferrer" className="glow-card p-6 sm:p-8 rounded-2xl text-center group hover:shadow-xl transition-all block">
+                        <div className="w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-4 rounded-full bg-gradient-to-br from-[#0D9488]/20 to-[#0F766E]/10 flex items-center justify-center group-hover:scale-110 transition-transform">
+                            <FaEnvelope className="text-[#0D9488] text-2xl sm:text-3xl" />
                         </div>
+                        <p className="text-xs sm:text-sm text-[#6B5844] mb-2 font-bold uppercase tracking-wider">Gmail</p>
+                        <p className="font-semibold text-xs sm:text-sm text-[#2C2416] group-hover:text-[#0D9488] transition-colors break-all px-2">naylasyafiraaa25@gmail.com</p>
+                    </a>
+                </div>
 
-                        <button type="submit" className="w-full btn-primary py-3 sm:py-4 rounded-lg sm:rounded-xl font-bold text-base sm:text-lg hover:shadow-xl transition-all">
-                            Kirim Pesan
-                        </button>
-                    </form>
+                {/* Additional Info */}
+                <div className="text-center mt-10 sm:mt-12">
+                    <p className="text-sm sm:text-base text-[#6B5844] max-w-2xl mx-auto">
+                        Saya siap menerima kesempatan PKL dan proyek desain bangunan. Jangan ragu untuk menghubungi! 🏗️
+                    </p>
                 </div>
             </div>
         </section>
