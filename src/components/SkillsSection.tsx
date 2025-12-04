@@ -1,4 +1,4 @@
-import { FaTools, FaBrain, FaMicrophone, FaChalkboardTeacher, FaLightbulb, FaUsers, FaClipboardList, FaAward } from 'react-icons/fa';
+import { FaTools, FaBrain, FaMicrophone, FaChalkboardTeacher, FaLightbulb, FaUsers, FaClipboardList, FaAward, FaProjectDiagram, FaComments, FaFileAlt } from 'react-icons/fa';
 
 export default function SkillsSection() {
     const hardSkills = [
@@ -7,7 +7,8 @@ export default function SkillsSection() {
         "Microsoft Office (surat, RAB, laporan)",
         "Gambar kerja manual (presisi dan teliti)",
         "Membaca gambar teknik (simbol, skala, elemen dalam gambar teknik)",
-        "Pengukuran & survey (Waterpass, roll meter, pencatatan hasil bidikan)"
+        "Pengukuran & survey (Waterpass, roll meter, pencatatan hasil bidikan)",
+        "Desain interior (kitchen set, furniture custom)"
     ];
 
     const softSkills = [
@@ -16,7 +17,10 @@ export default function SkillsSection() {
         { name: "Analytical & Critical Thinking", icon: FaLightbulb },
         { name: "Teamwork", icon: FaUsers },
         { name: "Administration", icon: FaClipboardList },
-        { name: "Reliable", icon: FaAward }
+        { name: "Reliable", icon: FaAward },
+        { name: "Komunikasi Klien", icon: FaComments },
+        { name: "Manajemen Proyek", icon: FaProjectDiagram },
+        { name: "Dokumentasi Teknis", icon: FaFileAlt }
     ];
 
     return (

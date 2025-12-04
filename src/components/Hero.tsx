@@ -48,7 +48,7 @@ export default function Hero() {
 
                 <div className="relative h-[400px] sm:h-[500px] lg:h-[600px] w-full max-w-[350px] sm:max-w-[400px] mx-auto rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl group border-2 sm:border-4 border-white">
                     <Image
-                        src="/nayla-profile.jpg"
+                        src="/nayla-profile-new.jpg"
                         alt="Nayla Syafira"
                         fill
                         className="object-cover"

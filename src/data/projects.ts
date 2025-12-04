@@ -111,6 +111,20 @@ export const projects: Project[] = [
         tujuan: "Menyusun anggaran biaya kitchen set sesuai kebutuhan klien.",
         peran: "Menghitung material, kebutuhan pelengkap, dan biaya total.",
         hasil: "Dokumen RAB lengkap dengan rincian material, dan estimasi waktu."
+    },
+    {
+        id: 8,
+        title: "Kitchen Set Custom",
+        category: "Freelance",
+        description: "Merancang kitchen set fungsional & estetis sesuai kebutuhan klien sebagai Freelancer/pekerja lepas.",
+        image: "/projects/kitchen-set.jpg",
+        tools: ["SketchUp", "AutoCAD"],
+        year: "2024",
+        featured: true,
+        link: "https://1drv.ms/w/c/ba2a07833bda4e64/IQDElrqBrbbdQ7ho9liJUFAIAa6bUFzL8NxurZcIlcO5QG4?e=tgzOzb",
+        tujuan: "Merancang kitchen set fungsional & estetis sesuai kebutuhan klien sebagai Freelancer/pekerja lepas.",
+        peran: "Desain 3D, pemilihan material, detail.",
+        hasil: "Kitchen set ergonomis dengan sistem penyimpanan optimal"
     }
 ];
 
