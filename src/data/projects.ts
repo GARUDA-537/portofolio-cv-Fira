@@ -97,6 +97,20 @@ export const projects: Project[] = [
         tujuan: "Merancang sistem pembalokan sesuai standar kekuatan & stabilitas.",
         peran: "Membuat gambar balok dan kolom dan menempatkan sesuai kebutuhan.",
         hasil: "Gambar lengkap dengan ukuran."
+    },
+    {
+        id: 7,
+        title: "RAB Kitchen Set Custom",
+        category: "Rencana Anggaran Biaya",
+        description: "Menyusun anggaran biaya kitchen set sesuai kebutuhan klien dengan rincian material dan estimasi waktu.",
+        image: "/projects/rab-kitchen.jpg",
+        tools: ["Microsoft Excel"],
+        year: "2024",
+        featured: false,
+        link: "https://1drv.ms/x/c/ba2a07833bda4e64/IQCaCSF-gCrCSZJpLR6fhseQASuv4rUsGSxsNBMhQFDJFtg?e=NYBWXT",
+        tujuan: "Menyusun anggaran biaya kitchen set sesuai kebutuhan klien.",
+        peran: "Menghitung material, kebutuhan pelengkap, dan biaya total.",
+        hasil: "Dokumen RAB lengkap dengan rincian material, dan estimasi waktu."
     }
 ];
 

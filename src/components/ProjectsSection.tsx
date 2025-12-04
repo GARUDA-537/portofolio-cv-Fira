@@ -33,27 +33,6 @@ export default function ProjectsSection() {
                             className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 animate-fade-in-up border border-[#E7DED0]"
                             style={{ animationDelay: `${index * 100}ms` }}
                         >
-                            {/* Project Image */}
-                            <div className="relative h-56 sm:h-64 overflow-hidden bg-gradient-to-br from-[#E7DED0] to-[#FFF3E6]">
-                                <div className="absolute inset-0 flex items-center justify-center">
-                                    <div className="text-center p-6">
-                                        <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-gradient-to-br from-[#D97706] to-[#EA580C] flex items-center justify-center">
-                                            <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                                            </svg>
-                                        </div>
-                                        <p className="text-sm text-[#6B5844] font-medium">Preview Image</p>
-                                    </div>
-                                </div>
-
-                                {/* Featured Badge */}
-                                {project.featured && (
-                                    <div className="absolute top-4 right-4 bg-gradient-to-r from-[#D97706] to-[#EA580C] text-white px-3 py-1 rounded-full text-xs font-bold uppercase shadow-lg">
-                                        Featured
-                                    </div>
-                                )}
-                            </div>
-
                             {/* Project Info */}
                             <div className="p-6">
                                 <div className="flex items-center justify-between mb-3">

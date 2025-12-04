@@ -48,16 +48,11 @@ export default function Hero() {
 
                 <div className="relative h-[350px] sm:h-[400px] md:h-[450px] lg:h-[550px] w-full rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl group border-2 sm:border-4 border-white">
                     <Image
-                        src="https://picsum.photos/500/600?grayscale&random=1"
-                        alt="Architecture Design"
+                        src="/nayla-profile.jpg"
+                        alt="Nayla Syafira"
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-700"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-[#2C2416]/80 via-[#2C2416]/20 to-transparent" />
-                    <div className="absolute bottom-6 sm:bottom-8 left-6 sm:left-8 right-6 sm:right-8">
-                        <p className="text-xs sm:text-sm text-[#FF9F43] font-semibold mb-1 sm:mb-2 uppercase tracking-wider">Featured Project</p>
-                        <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-white">Desain Rumah Minimalis Modern</h3>
-                    </div>
                 </div>
             </div>
         </section>
