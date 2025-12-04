@@ -1,17 +1,8 @@
 'use client';
 
-import { useState } from 'react';
-import Image from 'next/image';
-import { projects, getAllCategories } from '@/data/projects';
+import { projects } from '@/data/projects';
 
 export default function ProjectsSection() {
-    const [selectedCategory, setSelectedCategory] = useState<string>('All');
-    const categories = ['All', ...getAllCategories()];
-
-    const filteredProjects = selectedCategory === 'All'
-        ? projects
-        : projects.filter(p => p.category === selectedCategory);
-
     return (
         <section id="portofolio" className="py-16 sm:py-20 lg:py-24 bg-gradient-to-b from-[#FEFCF9] to-[#FFF3E6] relative overflow-hidden">
             {/* Background Decorations */}
@@ -34,25 +25,9 @@ export default function ProjectsSection() {
                     </p>
                 </div>
 
-                {/* Category Filter */}
-                <div className="flex flex-wrap justify-center gap-3 mb-12">
-                    {categories.map((category) => (
-                        <button
-                            key={category}
-                            onClick={() => setSelectedCategory(category)}
-                            className={`px-4 sm:px-6 py-2 sm:py-3 rounded-full font-medium text-sm sm:text-base transition-all duration-300 ${selectedCategory === category
-                                    ? 'bg-gradient-to-r from-[#D97706] to-[#EA580C] text-white shadow-lg scale-105'
-                                    : 'bg-white text-[#6B5844] hover:bg-[#FFF3E6] border border-[#E7DED0]'
-                                }`}
-                        >
-                            {category}
-                        </button>
-                    ))}
-                </div>
-
                 {/* Projects Grid */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-                    {filteredProjects.map((project, index) => (
+                    {projects.map((project, index) => (
                         <div
                             key={project.id}
                             className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 animate-fade-in-up border border-[#E7DED0]"
@@ -116,19 +91,6 @@ export default function ProjectsSection() {
                         </div>
                     ))}
                 </div>
-
-                {/* Empty State */}
-                {filteredProjects.length === 0 && (
-                    <div className="text-center py-16">
-                        <div className="w-24 h-24 mx-auto mb-6 rounded-full bg-[#E7DED0] flex items-center justify-center">
-                            <svg className="w-12 h-12 text-[#6B5844]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
-                        </div>
-                        <h4 className="text-2xl font-bold text-[#2C2416] mb-2">Tidak Ada Project</h4>
-                        <p className="text-[#6B5844]">Belum ada project dalam kategori ini.</p>
-                    </div>
-                )}
             </div>
         </section>
     );
