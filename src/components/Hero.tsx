@@ -46,12 +46,12 @@ export default function Hero() {
                     </div>
                 </div>
 
-                <div className="relative h-[350px] sm:h-[400px] md:h-[450px] lg:h-[550px] w-full rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl group border-2 sm:border-4 border-white">
+                <div className="relative h-[400px] sm:h-[500px] lg:h-[600px] w-full max-w-[350px] sm:max-w-[400px] mx-auto rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl group border-2 sm:border-4 border-white">
                     <Image
                         src="/nayla-profile.jpg"
                         alt="Nayla Syafira"
                         fill
-                        className="object-cover group-hover:scale-105 transition-transform duration-700"
+                        className="object-cover"
                     />
                 </div>
             </div>
