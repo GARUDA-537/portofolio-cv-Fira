@@ -4,6 +4,7 @@ import ProfileSection from '@/components/ProfileSection';
 import EducationSection from '@/components/EducationSection';
 import ExperienceSection from '@/components/ExperienceSection';
 import SkillsSection from '@/components/SkillsSection';
+import ProjectsSection from '@/components/ProjectsSection';
 import ContactSection from '@/components/ContactSection';
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <EducationSection />
       <ExperienceSection />
       <SkillsSection />
+      <ProjectsSection />
       <ContactSection />
 
       <footer className="py-12 text-center text-[#6B5844] text-sm border-t border-[#E7DED0] bg-[#FEFCF9]">
