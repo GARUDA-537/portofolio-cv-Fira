@@ -29,13 +29,11 @@ export default function Hero() {
                     </h1>
 
                     <p className="text-lg sm:text-xl md:text-2xl text-[#6B5844] font-medium">
-                        Siswa DPIB - SMKN 2 Surabaya
+                        Desain Permodelan Dan Informasi Bangunan
                     </p>
 
                     <p className="text-[#2C2416] text-base sm:text-lg max-w-lg leading-relaxed">
-                        Passionate dalam menciptakan desain arsitektur dan furniture yang fungsional dan estetis.
-                        Berpengalaman dalam AutoCAD, SketchUp, dan penyusunan RAB.
-                        Mengubah ide menjadi visualisasi 3D yang memukau dengan detail dan presisi tinggi.
+                        Mahir dalam AutoCAD & SketchUp. Membuat gambar teknik gedung, furniture 2D&3D, dan RAB dengan presisi dan teliti. Siap berkontribusi dalam proyek teknis dengan disiplin dan tanggung jawab.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-2 sm:pt-4">
