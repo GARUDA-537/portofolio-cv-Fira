@@ -29,11 +29,13 @@ export default function Hero() {
                     </h1>
 
                     <p className="text-lg sm:text-xl md:text-2xl text-[#6B5844] font-medium">
-                        Desain Permodelan dan Informasi Bangunan
+                        Siswa DPIB - SMKN 2 Surabaya
                     </p>
 
                     <p className="text-[#2C2416] text-base sm:text-lg max-w-lg leading-relaxed">
-                        Mahir dalam AutoCAD & SketchUp. Membuat gambar teknik gedung, Furniture 2D&3D, dan RAB dengan presisi tinggi. Siap berkontribusi dalam proyek teknis dengan disiplin dan tanggung jawab.
+                        Passionate dalam menciptakan desain arsitektur dan furniture yang fungsional dan estetis.
+                        Berpengalaman dalam AutoCAD, SketchUp, dan penyusunan RAB.
+                        Mengubah ide menjadi visualisasi 3D yang memukau dengan detail dan presisi tinggi.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-2 sm:pt-4">
@@ -56,7 +58,7 @@ export default function Hero() {
                     <div className="absolute inset-0 bg-gradient-to-t from-[#2C2416]/80 via-[#2C2416]/20 to-transparent" />
                     <div className="absolute bottom-6 sm:bottom-8 left-6 sm:left-8 right-6 sm:right-8">
                         <p className="text-xs sm:text-sm text-[#FF9F43] font-semibold mb-1 sm:mb-2 uppercase tracking-wider">Featured Project</p>
-                        <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-white">Modern Wooden Architecture</h3>
+                        <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-white">Desain Rumah Minimalis Modern</h3>
                     </div>
                 </div>
             </div>
