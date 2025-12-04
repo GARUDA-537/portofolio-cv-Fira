@@ -84,9 +84,14 @@ export default function ProjectsSection() {
                                 </div>
 
                                 {/* View Details Button */}
-                                <button className="w-full py-2.5 rounded-lg bg-gradient-to-r from-[#D97706] to-[#EA580C] text-white font-medium text-sm hover:shadow-lg transition-all duration-300 group-hover:scale-105">
+                                <a
+                                    href={project.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="block w-full py-2.5 rounded-lg bg-gradient-to-r from-[#D97706] to-[#EA580C] text-white font-medium text-sm hover:shadow-lg transition-all duration-300 group-hover:scale-105 text-center"
+                                >
                                     Lihat Detail
-                                </button>
+                                </a>
                             </div>
                         </div>
                     ))}

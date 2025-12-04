@@ -7,88 +7,96 @@ export interface Project {
     tools: string[];
     year: string;
     featured?: boolean;
+    link: string;
+    tujuan: string;
+    peran: string;
+    hasil: string;
 }
 
 export const projects: Project[] = [
     {
         id: 1,
-        title: "Desain Rumah Minimalis Modern",
-        category: "Arsitektur Residensial",
-        description: "Desain rumah minimalis 2 lantai dengan konsep modern tropis. Menggunakan material kayu dan kaca untuk menciptakan kesan hangat namun tetap elegan. Dilengkapi dengan taman indoor dan pencahayaan alami maksimal.",
-        image: "/projects/rumah-minimalis.jpg",
-        tools: ["AutoCAD", "SketchUp", "V-Ray"],
+        title: "Denah Rumah 2 Lantai",
+        category: "Gambar Teknik",
+        description: "Merancang tata ruang fungsional dan efisiensi penggunaan lahan dengan denah detail lantai 1 & lantai 2.",
+        image: "/projects/denah-rumah.jpg",
+        tools: ["AutoCAD"],
         year: "2024",
-        featured: true
+        featured: true,
+        link: "https://drive.google.com/file/d/1E3ytta1YKs7QGBNU3Z2SkGUI4gmYdGRM/view?usp=drive_link",
+        tujuan: "Merancang tata ruang fungsional dan efisiensi penggunaan lahan.",
+        peran: "Membuat sketsa, denah detail lantai 1 & lantai 2.",
+        hasil: "Denah final dengan ruang publik & privat."
     },
     {
         id: 2,
-        title: "Furniture Set Ruang Tamu",
-        category: "Desain Furniture",
-        description: "Desain set furniture ruang tamu dengan konsep Scandinavian. Terdiri dari sofa, meja kopi, dan rak display dengan material kayu jati dan finishing natural. Desain 3D lengkap dengan detail konstruksi.",
-        image: "/projects/furniture-set.jpg",
-        tools: ["SketchUp", "AutoCAD", "Lumion"],
+        title: "Rencana Pondasi Rumah Tinggal 2 Lantai",
+        category: "Struktur Bangunan",
+        description: "Merancang pondasi bangunan lengkap dengan pondasi luar, pondasi dalam dan pondasi plat setempat.",
+        image: "/projects/pondasi.jpg",
+        tools: ["AutoCAD"],
         year: "2024",
-        featured: true
+        featured: true,
+        link: "https://drive.google.com/file/d/1sXYVsQFUbsf17NrcILGXRDT4dvp3hJAk/view?usp=drive_link",
+        tujuan: "Merancang pondasi bangunan lengkap dengan pondasi luar, pondasi dalam dan pondasi plat setempat.",
+        peran: "Menganalisis kebutuhan struktur desain beban bangunan, menggambar detail pondasi.",
+        hasil: "Gambar kerja pondasi lengkap dengan ukuran dan keterangan."
     },
     {
         id: 3,
-        title: "RAB Gedung Perkantoran 3 Lantai",
-        category: "Rencana Anggaran Biaya",
-        description: "Penyusunan Rencana Anggaran Biaya (RAB) untuk pembangunan gedung perkantoran 3 lantai dengan luas bangunan 450m². Mencakup perhitungan volume, analisa harga satuan, dan total anggaran proyek.",
-        image: "/projects/rab-gedung.jpg",
-        tools: ["Microsoft Excel", "AutoCAD"],
+        title: "Detail Rencana Atap Rumah Tinggal 2 Lantai",
+        category: "Detail Konstruksi",
+        description: "Merancang sistem atap dengan kuda-kuda dan komponen lengkap termasuk gording, usuk, reng, dan penutup atap.",
+        image: "/projects/atap.jpg",
+        tools: ["AutoCAD"],
         year: "2024",
-        featured: false
+        featured: true,
+        link: "https://drive.google.com/file/d/1USZ1AkJtQ5I3x6aCusJk7cFKE8u6WNA1/view?usp=drive_link",
+        tujuan: "Merancang sistem atap dengan kuda-kuda dan komponen lengkap.",
+        peran: "Membuat gambar detail rencana atap, detail kuda-kuda, dan komponen pelengkap atap.",
+        hasil: "Gambar detail atap dengan gording, usuk, reng, penutup atap."
     },
     {
         id: 4,
-        title: "Desain Interior Cafe Modern",
-        category: "Desain Interior",
-        description: "Konsep interior cafe dengan tema industrial modern. Menggunakan kombinasi material beton ekspos, kayu, dan metal. Dilengkapi dengan layout furniture yang efisien dan pencahayaan ambient yang nyaman.",
-        image: "/projects/cafe-interior.jpg",
-        tools: ["SketchUp", "V-Ray", "AutoCAD"],
-        year: "2023",
-        featured: true
+        title: "Denah Peletakan Kusen Pintu dan Jendela",
+        category: "Gambar Teknik",
+        description: "Menentukan posisi kusen sesuai fungsi ruang & pencahayaan dengan gambar kerja peletakan yang detail.",
+        image: "/projects/denah-kusen.jpg",
+        tools: ["AutoCAD"],
+        year: "2024",
+        featured: false,
+        link: "https://drive.google.com/file/d/1AD7--ag4FSClJyXOD6CnxT8ZMXLAgn6t/view?usp=drive_link",
+        tujuan: "Menentukan posisi kusen sesuai fungsi ruang & pencahayaan.",
+        peran: "Membuat gambar denah peletakan kusen pintu dan jendela.",
+        hasil: "Gambar kerja peletakan kusen pintu dan jendela."
     },
     {
         id: 5,
-        title: "Gambar Kerja Renovasi Rumah",
-        category: "Gambar Teknik",
-        description: "Gambar kerja lengkap untuk renovasi rumah tinggal meliputi denah, tampak, potongan, detail konstruksi, dan rencana MEP (Mechanical, Electrical, Plumbing). Sesuai standar SNI dan siap untuk pelaksanaan.",
-        image: "/projects/gambar-kerja.jpg",
+        title: "Detail Kusen Pintu dan Jendela",
+        category: "Detail Arsitektur",
+        description: "Merancang detail kusen sesuai fungsi ruang & estetika dengan gambar detail lengkap ukuran, material, dan elemen pendukung.",
+        image: "/projects/detail-kusen.jpg",
         tools: ["AutoCAD"],
-        year: "2023",
-        featured: false
+        year: "2024",
+        featured: false,
+        link: "https://drive.google.com/file/d/1GB3iCmn5FAb1SJs2RKwZ-BYP9DmaC2iB/view?usp=drive_link",
+        tujuan: "Merancang detail kusen sesuai fungsi ruang & estetika.",
+        peran: "Membuat gambar detail kusen, sambungan, dan material.",
+        hasil: "Gambar detail kusen lengkap dengan ukuran, material, dan elemen pendukung."
     },
     {
         id: 6,
-        title: "Meja Belajar Multifungsi",
-        category: "Desain Furniture",
-        description: "Desain meja belajar multifungsi dengan storage terintegrasi. Cocok untuk ruang kecil dengan sistem lipat dan rak modular. Material plywood dengan finishing HPL warna natural oak.",
-        image: "/projects/meja-belajar.jpg",
-        tools: ["SketchUp", "AutoCAD"],
-        year: "2023",
-        featured: false
-    },
-    {
-        id: 7,
-        title: "Desain Taman Minimalis",
-        category: "Landscape Design",
-        description: "Perencanaan taman minimalis untuk area depan rumah seluas 50m². Menggunakan konsep zen garden dengan elemen air, batu alam, dan tanaman tropis. Dilengkapi dengan pencahayaan landscape.",
-        image: "/projects/taman-minimalis.jpg",
-        tools: ["SketchUp", "Lumion"],
-        year: "2023",
-        featured: false
-    },
-    {
-        id: 8,
-        title: "Lemari Pakaian Custom",
-        category: "Desain Furniture",
-        description: "Desain lemari pakaian custom dengan sistem sliding door dan interior organizer. Dimensi disesuaikan dengan ruang kamar tidur. Material MDF dengan finishing duco putih dan aksen kayu.",
-        image: "/projects/lemari-pakaian.jpg",
-        tools: ["SketchUp", "AutoCAD"],
+        title: "Denah Balok dan Kolom",
+        category: "Struktur Bangunan",
+        description: "Merancang sistem pembalokan sesuai standar kekuatan & stabilitas dengan analisis beban struktur yang tepat.",
+        image: "/projects/balok-kolom.jpg",
+        tools: ["AutoCAD"],
         year: "2024",
-        featured: false
+        featured: false,
+        link: "https://drive.google.com/file/d/1-ogXJLpyQB3ADtqwlsV_IsIPTC8xAXcZ/view?usp=drive_link",
+        tujuan: "Merancang sistem pembalokan sesuai standar kekuatan & stabilitas.",
+        peran: "Membuat gambar balok dan kolom dan menempatkan sesuai kebutuhan.",
+        hasil: "Gambar lengkap dengan ukuran."
     }
 ];
 
