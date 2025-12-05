@@ -118,7 +118,7 @@ export const projects: Project[] = [
         category: "Freelance",
         description: "Merancang kitchen set fungsional & estetis sesuai kebutuhan klien sebagai Freelancer/pekerja lepas.",
         image: "/projects/kitchen-set.jpg",
-        tools: ["AutoCAD"],
+        tools: ["SketchUp"],
         year: "2025",
         featured: true,
         link: "https://1drv.ms/w/c/ba2a07833bda4e64/IQDElrqBrbbdQ7ho9liJUFAIAa6bUFzL8NxurZcIlcO5QG4?e=tgzOzb",
