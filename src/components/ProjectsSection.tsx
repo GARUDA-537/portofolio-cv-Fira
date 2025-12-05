@@ -21,7 +21,7 @@ export default function ProjectsSection() {
                         Portofolio <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#D97706] to-[#EA580C]">Projects</span>
                     </h3>
                     <p className="text-[#6B5844] text-base sm:text-lg max-w-2xl mx-auto">
-                        Koleksi project desain arsitektur, furniture, dan gambar teknik yang telah saya kerjakan dengan detail dan presisi tinggi.
+                        Koleksi project desain arsitektur, furniture yang telah saya kerjakan dengan detail dan presisi.
                     </p>
                 </div>
 
