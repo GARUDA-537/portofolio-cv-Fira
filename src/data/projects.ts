@@ -21,7 +21,7 @@ export const projects: Project[] = [
         description: "Merancang tata ruang fungsional dan efisiensi penggunaan lahan dengan denah detail lantai 1 & lantai 2.",
         image: "/projects/denah-rumah.jpg",
         tools: ["AutoCAD"],
-        year: "2024",
+        year: "2025",
         featured: true,
         link: "https://drive.google.com/file/d/1E3ytta1YKs7QGBNU3Z2SkGUI4gmYdGRM/view?usp=drive_link",
         tujuan: "Merancang tata ruang fungsional dan efisiensi penggunaan lahan.",
